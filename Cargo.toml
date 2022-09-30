@@ -1,0 +1,11 @@
+[package]
+edition = "2021"
+name = "reldb"
+version = "0.1.0"
+
+[dependencies]
+quickcheck = "1.0.3"
+
+[dev-dependencies]
+quickcheck_macros = "1"
+proptest = "1.0.0"
